@@ -4,14 +4,13 @@
         "details": "A website that allows student to keep up to date on shool activities\n",
         "imagesrc": "./images/HPS Daily/project-hpsdaily-preview.png\n",
         "link": "/IndividualProject",
-        "id":1
+        "id": 1
     },
     {
         "title": "Hiking Java App",
         "details": "A Java application that allows users to record trail their history",
         "imagesrc": "./images/Trail Recorder/project-trail-preview.png",
         "link": "/IndividualProject",
-        "id":2
+        "id": 2
     }
-
 ]

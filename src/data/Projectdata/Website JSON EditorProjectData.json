@@ -1,0 +1,11 @@
+{
+    "title": "Website JSON Editor",
+    "subtitle": "A Python Application to edit JSON data files for personal website",
+    "Overview": "The Python JSON Editor was a project I started to help edit JSON Files used on my personal website. The goal of the personal website was to create a website that is easy to update. This was achieved by storing and loading all data from a JSON file. The Python JSON Editor was created to extend that functionality and allow JSON editing using a GUI.\n",
+    "Objective": "The goal for the Python Json Editor is to create a Python Application that utilizes tkinter to create a GUI that allows the user to edit a Json from the Personal Website. It is important that the application accounts for formatting conventions established by the personal website and create a simplistic easy workflow.\n",
+    "Array": [],
+    "Conclusion": "After completing this project it has made updating my personal website more streamlined and efficient. While adding this editor into my workflow I have also noticed some improvements that could be made. When creating a new Json data file a new implementation could allow adding custom categories. Also the possible addition of auto adding a new project to both the Overview and data file. \n",
+    "mainimgsrc": "",
+    "githublink": "https://github.com/Scott-Imandt/Personal-Website-Json-Editor",
+    "id": 1
+}

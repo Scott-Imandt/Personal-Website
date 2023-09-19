@@ -6,20 +6,19 @@
     "Array": [
         {
             "HTML/CSS": "When design the website it was important to have a simple and clean interface that was also consistent between multiple pages. For this website, I used bootstrap to help structure the website so both mobile and desktop versions of the website were responsive. For this website, I also imported Custom fonts from fonts.googleapi to further customize the look of the website.",
-            "img":"./images/HPS Daily/project-hpsdaily-preview.png"
+            "img": "./images/HPS Daily/project-hpsdaily-preview.png"
         },
         {
             "Google Firebase": "Creating an account verification system so admins can sign in and edit club/sport information was necessary for the success of this website. Firebase allowed me to implement a user login and account verification system. If a user signs into my website they also inadvertently signed into the database that stored all the club/sport info. If the user tried to change the state of a club, the database would verify the user before applying any changes. This system was perfect and allowed admins to sign onto the website and only allow admins to change any information in the database.",
-            "img":"./images/HPS Daily/HPS Daily firebase code.png"
+            "img": "./images/HPS Daily/HPS Daily firebase code.png"
         },
         {
             "Google Calendar": "After completing this project the implementation of google calendar and google's Firebase was a complete success. I achieved my goal of website editing without the need to change code. This website didn't take long to develop but took very long to get approval. I needed to conference with the principal and superintendent of the school multiple times just to get permission to post the site. I also had to make a lot of documentation on the website such as posters to put up, an admin form for faculty to fill out to gather usernames emails and passwords and club information. I also had to present this website to all of the faculty at the school that it was being deployed at. All of this took a lot of time, as a result of this the website only had two months of exposure before it was no longer needed due to summer recess. I wish I had more time to advertise the website so its implementation could be used for future students. This project allowed me to experience the development side of building a website and the logistical side of going to conferences and meetings.",
-            "img":"./images/HPS Daily/HPS Daily Calendar API.png"
+            "img": "./images/HPS Daily/HPS Daily Calendar API.png"
         }
     ],
     "Conclusion": "After completing this project the implementation of google calendar and google's Firebase was a complete success. I achieved my goal of website editing without the need to change code. This website didn't take long to develop but took very long to get approval. I needed to conference with the principal and superintendent of the school multiple times just to get permission to post the site. I also had to make a lot of documentation on the website such as posters to put up, an admin form for faculty to fill out to gather usernames emails and passwords and club information. I also had to present this website to all of the faculty at the school that it was being deployed at. All of this took a lot of time, as a result of this the website only had two months of exposure before it was no longer needed due to summer recess. I wish I had more time to advertise the website so its implementation could be used for future students. This project allowed me to experience the development side of building a website and the logistical side of going to conferences and meetings.",
     "id": 1,
-
     "mainimgsrc": "./images/HPS Daily/HPS Daily index.png",
     "githublink": ""
 }

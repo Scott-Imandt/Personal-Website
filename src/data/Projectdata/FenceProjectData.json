@@ -6,28 +6,27 @@
     "Array": [
         {
             "NRF Module": "The NRF Modules are configured in such a way that they communicate reliably. First, the NRF modules (one per client)get the gate status (Open or closed) and store this information in an array. The array stores two variables. The first variable is a fixed value to indicate the fence number(This number is unique for every client). The second number is the new state of the fence. The communication system is implemented in a reliable manner. The client will send its new status to the server. Once the server gets the new gate information the server will communicate back to the client informing them that they have received the message. The client will continually attempt to communicate with the server until the client receives the return message.",
-            "img":"./images/Fence Project/NRF Module.jpg"
+            "img": "./images/Fence Project/NRF Module.jpg"
         },
         {
             "WebServer": "The Webserver uses an ESP 32 with built-in network capabilities to host the webserver. If a client connects to the webserver hosted at a set IP, the ESP 32 will send raw HTML to the user with the current fence information. When the server receives new fence information from the fence client it will update the raw HTML with the new information. This communication is done with another NFR module attached to the ESP 32.",
-            "img":"./images/Fence Project/WebServer.jpg"
+            "img": "./images/Fence Project/WebServer.jpg"
         },
         {
             "BMS System": "The Fence project runs off of 2x 18650 lithium-ion batteries. These batteries are connected in series to produce a peak voltage of 8.4 volts. Since this system runs on batteries the system power draw must be as low as possible. This can be achieved by first limiting the number of communications between the server and the client. Secondly, after reading the NRF module's source code I discovered that they have a low power state. This low power states buts the NRF modules in standby-like mode to reduce power draw while idle. As well as reducing the amount of power drawn the system is also hooked up to a solar panel to help recharge the batteries during the day time. This system provides a constant voltage to the BMS system to recharge and power the system. The batteries are wired to a BMS controller that regulates the batteries to ensure that they have similar voltages and that they can charge and discharge safely without risk of overcharge or over discharge.",
-            "img":"./images/Fence Project/BMS.jpg"
+            "img": "./images/Fence Project/BMS.jpg"
         },
         {
             "EasyEDA / 3D Modeling": "The Fence Project client has a custom PCB to help wire all the modules/parts together. Since multiple clients can connect to one server it was important to be able to create multiple clients quickly and reliably. This project also requires that it be installed in a weatherproof case since it will be installed outside and exposed to varies elements. This case that the technology is housed in is modeled in Fusion 360 modeling software. After multiple prototypes, the final version of the case was 3d printed in PETG plastic.",
-            "img":"./images/Fence Project/The Fence Project Models.png"
+            "img": "./images/Fence Project/The Fence Project Models.png"
         },
         {
             "Future Development": "In the future, I plan to further develop this product by adding new features and technologies. First I plan to change how client battery charging is performed. Currently, with the power-saving measures taken both physically and through software the unit lasts for 7 days before needing a battery exchange. The goal for this product is to not need to change out the depleted batties for new ones. Currently, the recharging method that is used is a solar panel. The problem with this panel is that it does not receive adequate sunlight in the location it is installed. I plan to either relocate the solar panel to a better location or change the charging method to another technology power generator. Secondly, I am currently developing a physical and software system that allows Fence clients to report their battery status. This status will be a good indicator for the user to know what status the client system is in and whether or not the information the server has is reliable or not.",
-            "img":""
+            "img": ""
         }
     ],
     "Conclusion": "After completing The Fence Project, the project has helped and continues to help keep the property secure for the pets of the house to roam the backyard. Users have reported that the local website is fast and easy to understand. Users have also noted that the implementation of the quick-read led lights on the server makes it easy to quickly let the dog out in a pinch. Overall the success of the product has resulted in less instances of dogs lost roaming the neighborhood.",
     "id": 1,
-
     "mainimgsrc": "./images/Fence Project/Fence Overview.jpg",
     "githublink": "https://github.com/Scott-Imandt/Fence-Project"
 }

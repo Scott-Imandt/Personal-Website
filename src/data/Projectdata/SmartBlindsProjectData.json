@@ -6,32 +6,31 @@
     "Array": [
         {
             "Components": "2x Servo Motor (20kg), Arduino Nano, HC-05 Bluetooth Module, Photo Resistor, Buck Converter, 12v AC DC Power Supply, 220 ohm Ressistor, 2x 100uf Capacitor, Custom PCB / Home made soldered breadboard22, AWG wire",
-            "img":"./images/SmartBlinds/Blinds Schematic .png"
+            "img": "./images/SmartBlinds/Blinds Schematic .png"
         },
         {
             "Arduino": "To control Blinds the best option was to use the Arduino Micro Controller. The Arduino Micro Controller is great at controlling electronic components by using its digital pinouts and its analog pinouts. The Arduino takes the analog signal from the photoresistor and converts it into a degree value for the servo motors. As more light hits the photoresistor the more degrees the servo motor will turn to cap it at 90 degrees which would be fully open.Once the degree value is converted the Arduino uses its PWN digital pins to tell the servo to move to a specific degree. Reading the values from the photoresistor and controlling the servo motor is programmed using the Arduino IDE.",
-            "img":"./images/SmartBlinds/smart blinds components.jpg"
+            "img": "./images/SmartBlinds/smart blinds components.jpg"
         },
         {
             "HC-05 Bluetooth Module": "To allow the user to control the blinds directly the HC-05 Bluetooth module is used. The HC-05 can connect directly to the Arduino Serial Port to allow data to be sent and received. The HC-05 receives data from an external device that tells the Arduino to run in \"Ambient Mode\" or to allow for direct user control. The HC-05 also controls the blinds directly by receiving degree angles from an external device.",
-            "img":""
+            "img": ""
         },
         {
             "Arduino IDE": "In the Arduino software three is 6 variables declared. The first two are Servo myServo and Servo myServo2. These Servo variables are the Servo motors that control the blinds. The other four are all integers. The variables are int val, int phase, int outputValue and int data. Int val is the value returned from the photoresistor. Once the photoresistor value is stored it is mapped between 0-90 degrees and written to the servo motors. Int phase is the state that the Arduino controller is in. The int value controls if the blinds run automaticly or if they are user controled. The int data is the value that the hc-05 recieves from the phone app. the outputValue is the value written to the servo motors after the int value data is convert to 0-90 degrees. This program runs continuosly with a delay of 100 mili seconds",
-            "img":"./images/SmartBlinds/arduinoblinds.jpg"
+            "img": "./images/SmartBlinds/arduinoblinds.jpg"
         },
         {
             "Java App Development": "In the Arduino software, there are 6 variables declared. The first two are Servo myServo and Servo myServo2. These Servo variables are the Servo motors that control the blinds. The other four are all integers. The variables are int val, int phase, int outputValue, and int data. Int val is the value returned from the photoresistor. Once the photoresistor value is stored it is mapped between 0-90 degrees and written to the servo motors. Int phase is the state that the Arduino controller is in. The int value controls if the blinds run automatically or if they are user-controlled. The int data is the value that the HC-05 receives from the phone app. the outputValue is the value written to the servo motors after the int value data is converted to 0-90 degrees. This program runs continuously with a delay of 100 mili-seconds",
-            "img":"./images/SmartBlinds/smart blinds app.jpg"
+            "img": "./images/SmartBlinds/smart blinds app.jpg"
         },
         {
             "Easy EDA PCB Design": "Easy EDA allowed me to create and save a schematic of my electronic circuit. This allows me to view my circuit design electronically clearly and concisely. This also creates a record of my work so if I want to make any revisions I can do so without having to redraw the circuit again. Easy EDA also allowed me to convert my drawn schematic into a PCB File. Once I converted my schematic into a PCB I needed to route the PCB lines to the correct component and create any additional pinouts. Once that is all completed Easy EDA has a printing service that takes your PCB file that you created and make a physical version for your Application",
-            "img":"./images/SmartBlinds/Blinds PCB.png"
+            "img": "./images/SmartBlinds/Blinds PCB.png"
         }
     ],
     "Conclusion": "The objective to utilize both hardware and software in this project I feel I completed this task. This project taught me a lot about software and hardware development. After using this project for over 6 months I have thought of new things I would like to implement into this project. I would like to first revise my Arduino software. Rather than using two if statements I believe I can accomplish the same thing using a switch statement. I would also like to store the degree values of the blinds so can digitally calibrate the blinds to the same angle rather than physically adjusting them during setup. Also, I would further develop the android app to add a reconnect button if the connection is timed out or closed and I would like to add more styling than just a plain white app. Finally, I would love to revise the PCB design I created. I would like to add a quick Physical disconnect for the TX and RX pins on the HC-05 so I can upload new and improved software to the Arduino without having to desolder the unit. This was a crazy project that didn't start the same way it concluded. Initially, this project used an IR receiver and a remote controller to control the blinds and a battery and solar panels to power it. It was only after prototyping was I able to refine the project to what it is today.",
     "id": 1,
-
     "mainimgsrc": "./images/SmartBlinds/smart blinds main board.jpg",
     "githublink": ""
 }

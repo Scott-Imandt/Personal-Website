@@ -27,6 +27,9 @@ function LoadJsonData() {
     case "Car Maintenance Tracker":
       return require('../../data/Projectdata/CarMaintenanceTrackerProjectData.json')
 
+    case "Website JSON Editor":
+        return require('../../data/Projectdata/Website JSON EditorProjectData.json')
+
     default:
       console.log("No Matching JSON File Found")
       return undefined

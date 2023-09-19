@@ -6,24 +6,23 @@
     "Array": [
         {
             "Trail Storage": "To store trail information the data structure I chose was a TreeSet. Using a tree-based structure is perfect for storing information that needs to be searched and filtered. Using trees you can sort and store information. This is great because if you need to search for that information you don't have to iterate over all the data. Treeset was used since the treeset implements Collections, so searching the tree using streams was possible.",
-            "img":"./images/Trail Recorder/trailoverview.JPG"
+            "img": "./images/Trail Recorder/trailoverview.JPG"
         },
         {
             "User Storage": "To store user accounts the data structure I picked was the Hashtable. A Hash Table is a dynamic hashed structure, this means that the structure stores linked lists rather than the user object itself. This is great because there is no need to worry about collisions anymore. If two users hash into the same location the new user will just get added to the top of the linked list at that location preserving the location of the other user. The hashtable is also self-balancing so if the loading factor gets to be above .75 (Default) the hashtable will expand to accommodate the new user.",
-            "img":"./images/Trail Recorder/trail admin panel.JPG"
+            "img": "./images/Trail Recorder/trail admin panel.JPG"
         },
         {
             "Java Development": "In the application, objects are created for users, trails, calendar entries, and user and trail storage. Once the program is terminated the exit code copies the data from the user and trail storage and saves it to the save file object. The save file object then gets saved as a .dat file. Once the application is restarted the program checks to see if the .dat file exists or not. If the file doesn't exist the program will create the user and the trail data structures and prefill them with essential objects like an admin user and default trails. If the data file already exists then the application will load the .dat file.",
-            "img":"./images/Trail Recorder/trail code.JPG"
+            "img": "./images/Trail Recorder/trail code.JPG"
         },
         {
             "Scene Builder": "Scene builder was very important in the development process of this project. Scene builder allowed me to visually design my project to look exactly like I wanted it. Scene Builder also made the GUI execution process so much easier. This was because I was able to directly edit the FXML file that Scene Builder created to my Java controller.",
-            "img":"./images/Trail Recorder/Scene Builder.JPG"
+            "img": "./images/Trail Recorder/Scene Builder.JPG"
         }
     ],
     "Conclusion": "After completing this project I have successfully completed my goal of a persistent application that stores user and trail data. This project allowed me to learn how to use scene builder and how to properly implement the model, controller, view design structure. This project also taught me a lot about GitHub and how to use git commits to store backups of your work. I plan on updating this application and add a more colorful user interface. I also plan on adding the ability for users to change their profile picture from the default hiking person.",
     "id": 1,
-
     "mainimgsrc": "./images/Trail Recorder/project-trail-preview.png",
     "githublink": "https://github.com/Scott-Imandt/CSE248HikingApp"
 }
