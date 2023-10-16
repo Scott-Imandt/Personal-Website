@@ -23,7 +23,7 @@
     {
         "title": "Website JSON Editor",
         "details": "A Python Application to edit JSON data files for personal website",
-        "imagesrc": "",
+        "imagesrc": "./images/Website JSON Editor/JSON Edit Main.png",
         "link": "/IndividualProject",
         "id": 4
     }
