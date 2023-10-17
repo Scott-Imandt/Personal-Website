@@ -20,19 +20,86 @@ h1 {
     padding-left: 40px;
     padding-right: 40px;
     border-radius: 50px;
-      
 
 }
 
-.details{
-    width:670px;
+@media screen and (max-width: 400px) {
+
+    .projectOverviewContainer {
+        display: flex;
+        flex-direction: column;
+        background-color: #393e46;
+        color: #eeeeee;
+        border-color: #00adb5;
+        border-width: thick;
+        border-style: solid;
+        padding: 10px;
+        margin: 40px;
+
+        width: 300px;
+        padding-bottom: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+        border-radius: 50px;
+
+    }
+
+    .details{
+        flex-direction: column;
+    }
+
+    img {
+        display: block;
+        max-width: 200px;
+        max-height: 200px;
+        width: auto;
+        height: auto;
+        border-radius: 50px;
+    }
+
+    .projectOverviewTitle h1{
+        font-size: 2.5rem;
+    }
+
+    .projectOverviewBody p{
+        font-size: 1.5rem;
+    }
+
+}
+
+.details {
+    /*width: 670px;*/
     display: flex;
     justify-content: center;
     margin-top: 13px;
     font-weight: bold;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+@media screen and (min-width: 1060px) {
+    .details {
+        
+        width: 670px;
+    }
+
+    img {
+
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+}
+
+@media screen and (min-width: 400px) {
+
+
+    img {
+
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+}
 
 .projectOverviewContainer:hover {
     box-shadow: 0 0px 8px 1px #00adb5, 0 6px 20px 0 rgba(0, 0, 0, 0.90);
@@ -48,7 +115,7 @@ h1 {
     font-size: 2rem;
     color: #eeeeee;
     text-decoration: none;
-    margin-right:10px;
+    margin-right: 10px;
 }
 
 a:-webkit-any-link {
@@ -57,8 +124,7 @@ a:-webkit-any-link {
 
 img {
     display: block;
-    max-width: 400px;
-    max-height: 400px;
+
     width: auto;
     height: auto;
     border-radius: 50px;

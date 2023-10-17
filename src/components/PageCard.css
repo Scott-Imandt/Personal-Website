@@ -8,37 +8,81 @@
     margin-bottom: 20px;
     margin-right: 7.5%;
     margin-left: 7.5%;
-    
+
     border-radius: 50px;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 20px;
     padding-bottom: 50px;
-    
-    
+
 }
 
-.cardBody{
-    display:flex;
+.cardBody {
+    display: flex;
     font-style: normal;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+@media screen and (max-width: 1060px) {
+    .cardBody {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .pageimage img {
     display: inline;
     vertical-align: middle;
-    max-width: 500px;
-    max-height: 500px;
+    align-items: center;
     width: auto;
-    
     border-radius: 50px;
-      
 }
 
-.pageimage{
+@media screen and (max-width: 400px) {
+    .pageimage img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 250px;
+        max-height: 250px;
+        margin-left: 0;
+    }
+
+    .cardTitle h1 {
+        width: 220px;
+        font-size: 3rem;
+    }
+
+    .cardBody p {
+        font-size: 1.5rem;
+    }
+
+    .maincontent h1 {
+        font-size: 4.0rem;
+    }
+
+    .maincontent h2 {
+        font-size: 2.0rem;
+        margin: 20px;
+    }
+}
+
+@media screen and (min-width: 1060px) {
+    .pageimage img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /*max-width: 250px; */
+        /*max-height: 250px; */
+        margin-left: 30px;
+    }
+
+}
+
+.pageimage {
     display: flex;
     vertical-align: middle;
-    max-width: 500px;
-    max-height: 500px;
-    margin-left: 20px;  
+    align-items: center;
+
 }

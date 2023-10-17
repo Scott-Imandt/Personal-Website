@@ -21,7 +21,7 @@ function SkillsBody() {
 
             <PageCard
                 title={'Software Development Skills'}
-                body={'Web development in both front and backend development. (HTML/CSS/JavaScript/React/MongoDB) Experience in Java, JavaFX, Data Structures, Design Patterns, HTML, CSS, JavaScript, Python, Ocaml, MIPS, C++, C# Using the java language to develop programs utilizing polymorphism, Recursion, concurrent programming'}
+                body={'Front and backend web development. (HTML / CSS / JavaScript / React / MongoDB) Experience in Java, JavaFX, Data Structures, Design Patterns, HTML, CSS, JavaScript, Python, Ocaml, MIPS, C++, C# Using the java language to develop programs utilizing polymorphism, Recursion, concurrent programming'}
                 img={""}>
             </PageCard>
 
@@ -44,7 +44,7 @@ function SkillsBody() {
             </PageCard>
 
             <div style={myStyle}>
-                <object data={"./PDF's/Scott Imandt - Resume Spring 2023.pdf "} type="application/pdf" width="100%" height="900px">
+                <object data={"./PDF's/Scott Imandt - Resume Fall 2023.pdf "} type="application/pdf" width="100%" height="900px">
                     <p>Alternative text<a href="/Projects">to the PDF!</a></p>
                 </object>
             </div>

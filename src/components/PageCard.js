@@ -4,15 +4,16 @@ import './PageCard.css'
 function PageCard({ title, body, img }) {
 
     let image = ""
-    let style = {}
+    let style = { display: "flex" }
 
     if (img !== "") {
 
         image = <img src={img} alt="Project Imgage"></img>
+        style = { marginLeft: '0px', marginRight: '0px' }
     }
 
-    if(body === ""){
-        style = {display: "block"}
+    if (body === "") {
+        style = { display: "block" }
     }
 
 
@@ -20,7 +21,7 @@ function PageCard({ title, body, img }) {
         <>
             <div className='pageCardContainer'>
 
-                <div className='cardBody' style={style}>
+                <div className='cardBody'>
                     <div>
                         <div className='cardTitle'>
                             <h1>{title}</h1>
@@ -28,7 +29,7 @@ function PageCard({ title, body, img }) {
                         <br></br>
                         <p>{body}</p>
                     </div>
-                    <div className='pageimage'>
+                    <div className='pageimage' style={style}>
                         {image}
                     </div>
 
