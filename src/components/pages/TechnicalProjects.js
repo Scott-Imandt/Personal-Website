@@ -56,9 +56,9 @@ function TechnicalProjects() {
             </PageCard>
 
             <div style={myStyle}>
-                <object data={data.Data} type="application/pdf" width="100%" height="900px">
+                {/* <object data={data.Data} type="application/pdf" width="100%" height="900px">
                     <p>Alternative text<a href="/Projects">to the PDF!</a></p>
-                </object>
+                </object> */}
             </div>
         </>
     )

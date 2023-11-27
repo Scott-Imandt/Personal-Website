@@ -1,0 +1,27 @@
+{
+    "title": "Unreal Engine: Don't Stop",
+    "subtitle": "A Unreal Engine game that utilizes C++/Unreal Engine Blueprints/Blender.",
+    "Overview": "“Don’t Stop” is a game developed using the Unreal Engine, where the player takes on the role of a net runner. The player’s main objective is to “hack” their way through each level by navigating and wall running through various obstacles, while staying within a “hacking field” and avoiding NPC enemies. The game is a fast-paced and thrilling experience that challenges the player’s reflexes and skills.",
+    "Objective": "The purpose of creating this game is to gain more knowledge and skills in using the Unreal Engine and C++ programming. The game will consist of multiple levels and UI screens, as well as different types of enemies and items that provide dynamic gameplay for the player. The game will also feature an advanced movement system that allows the game camera and the player movement to respond to game actions, creating a more immersive playthrough",
+    "Array": [
+        {
+            "Blueprint": "I utilized the Unreal Blueprint system, a visual scripting tool, to create some of the core logic of the game. This system enabled me to implement features such as level loading, score tracking, and wall running with ease and efficiency. The Unreal Blueprint system also facilitated the rapid prototyping and development of gameplay mechanics.",
+            "img": "./images/Unreal Engine Dont Stop/Blueprint.png"
+        },
+
+        {
+            "Advanced Movement": "Don’t Stop relies on movement and camera position to create an immersive experience for the player. By adjusting the POV and camera distance, and adding a shake effect, the game simulates a sensation of high speed. The game also offers wall running as an engaging feature that allows the player to traverse the environment in a fluid way. The wall running mechanic is implemented seamlessly, so the player can perform it intuitively without any cumbersome controls.",
+            "img": "./images/Unreal Engine Dont Stop/Wall Running.png"
+        },
+
+        {
+            "Enemies and Items": "The game features two types of enemies that pose different challenges to the player. The Chase enemy pursues the player relentlessly and tries to collide with them, causing them to slow down. The Shooting enemy fires projectiles at the player from a safe distance, aiming to hinder their progress. The game also features various items that the player can collect and use to enhance their gameplay experience, such as the Speed block that boosts the player’s movement speed for a short duration, the Temporary Max Speed block that grants the player the maximum possible movement speed for a brief period, and the Ice Block that freezes all the enemies in the game temporarily. These items create dynamic interactions between the player and the game environment, adding more fun and challenge to the game.",
+            "img": "./images/Unreal Engine Dont Stop/Enemies.png"
+        }
+
+    ],
+    "Conclusion": "This game project has enhanced my skills and knowledge of the Unreal Engine and C++/Blueprints. I have also gained valuable experience in binary file management using Git LFS and Git workflow using push and pull requests to minimize merge conflicts. For future projects, I would use a separate version control system dedicated to binary files.",
+    "mainimgsrc": "./images/Unreal Engine Dont Stop/TitleScreen.png",
+    "githublink": "https://github.com/Scott-Imandt/CSE_381_Final_Project",
+    "id": 1
+}
