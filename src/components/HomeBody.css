@@ -5,7 +5,7 @@
     margin-top: 13px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
     .HomeTitleCardContainer {
         display: flex;
         justify-content: center;
@@ -16,7 +16,7 @@
     }
 
     .cardContainer {
-        width: 300px;
+        width: 90%;
         
     }
 }

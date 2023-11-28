@@ -35,36 +35,48 @@
     display: inline;
     vertical-align: middle;
     align-items: center;
-    width: auto;
+    max-width: 80%;
+    max-height: 250px;
+    margin-left: 10%;
+    margin-right: 10%;
     border-radius: 50px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
+
     .pageimage img {
         display: flex;
         flex-direction: column;
         align-items: center;
-        max-width: 250px;
+        max-width: 80%;
         max-height: 250px;
-        margin-left: 0;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     .cardTitle h1 {
-        width: 220px;
+        /*width: 220px;*/
         font-size: 3rem;
     }
 
     .cardBody p {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+        text-align: justify;
+        padding-bottom: 20px;
     }
 
     .maincontent h1 {
-        font-size: 4.0rem;
+        font-size: 3.0rem;
     }
 
     .maincontent h2 {
-        font-size: 2.0rem;
+        font-size: 1.5rem;
         margin: 20px;
+    }
+
+    .pageCardContainer{
+        padding-left: 25px;
+        padding-right: 25px;
     }
 }
 
@@ -73,6 +85,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        max-width: inherit;
         /*max-width: 250px; */
         /*max-height: 250px; */
         margin-left: 30px;

@@ -23,7 +23,7 @@ h1 {
 
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
 
     .projectOverviewContainer {
         display: flex;
@@ -34,35 +34,39 @@ h1 {
         border-width: thick;
         border-style: solid;
         padding: 10px;
-        margin: 40px;
-
-        width: 300px;
+        margin: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        /*width: 300px;*/
         padding-bottom: 40px;
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-left: 25px;
+        padding-right: 25px;
         border-radius: 50px;
 
     }
 
-    .details{
+    .details {
         flex-direction: column;
     }
 
     img {
-        display: block;
-        max-width: 200px;
-        max-height: 200px;
-        width: auto;
-        height: auto;
+        display: flex;
+        align-items: center;
+        max-width: 250px;
+        max-height: 300px;
+        margin-left: 10%;
+        margin-right: 10%;
         border-radius: 50px;
     }
 
-    .projectOverviewTitle h1{
-        font-size: 2.5rem;
+    .projectOverviewTitle h1 {
+        font-size: 2.0rem;
     }
 
-    .projectOverviewBody p{
-        font-size: 1.5rem;
+    .projectOverviewBody p {
+        font-size: 1.2rem;
+        text-align: justify;
+        padding-bottom: 20px;
     }
 
 }
@@ -78,7 +82,7 @@ h1 {
 
 @media screen and (min-width: 1060px) {
     .details {
-        
+
         width: 670px;
     }
 
@@ -90,16 +94,6 @@ h1 {
 
 }
 
-@media screen and (min-width: 400px) {
-
-
-    img {
-
-        max-width: 400px;
-        max-height: 400px;
-    }
-
-}
 
 .projectOverviewContainer:hover {
     box-shadow: 0 0px 8px 1px #00adb5, 0 6px 20px 0 rgba(0, 0, 0, 0.90);
@@ -124,7 +118,6 @@ a:-webkit-any-link {
 
 img {
     display: block;
-
     width: auto;
     height: auto;
     border-radius: 50px;

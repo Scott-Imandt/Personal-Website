@@ -1,23 +1,43 @@
 {
     "title": "Earth Uncharted",
-    "subtitle": "",
-    "Overview": "",
-    "Objective": "",
+    "subtitle": "Unity Drawing Game Tasked With Using GeoJson Map Files to Develop a game",
+    "Overview": "Earth Uncharted is a Unity game that combines drawing and geography in both single player and multiplayer modes. The game is developed by a team of researchers at Stony Brook University as part of a project that utilizes the GeoJSON file format. The game aims to enhance the players’ spatial awareness and map reading skills through various challenges and activities.",
+    "Objective": "The teams objective is to create a unity game that utilizes geojson files. We created out game to implement by creating and iterating on multiple game varients until \"Earth Uncharted\" was the final version of the game needed for implementation.",
     "Array": [
         {
-            "Job Tracking": "Cars have job objects that contain multiple attributes, including Name, Mileage Interval, Month Interval, Last Performed Date, Last Performed Miles, Expected Date to Repair, and a job Enum. Every time the car object is updated with new mileage and date-time information, the function calcMaintenance is called. This function handles the logic calculation of updating each job with new state information. Jobs can be created using preset defaults as well as user-specified jobs.",
-            "img": "./images/Car Maintenance Tracker/Add Job.png"
+            "Prototype Python": "To evaluate the feasibility and appeal of our game concept, we opted for a rapid prototyping approach using Python and Pygame. This enabled us to quickly test the gameplay mechanics and assess the level of fun and engagement for the players. Moreover, we established a collaborative workflow as a team by using Git version control, which helped us avoid merge conflicts and enhance our productivity. The prototype also gave us insights into how to optimize our code structure and eliminate redundancy.",
+            "img": ""
         },
         {
-            "Completed Jobs": "Completed jobs can be created based on pre-existing jobs or can be created individually for unique jobs. The completed jobs object implements Comparable in order to print jobs in order from most recent to least recent date completed. Completed jobs are also linked to an individual car as a unique list.",
-            "img": "./images/Car Maintenance Tracker/Complete Job.png"
+            "Lucid Chart and Figma": "We began our Unity game development by creating design documents that specified the visual and functional aspects of our game. We used Figma, a design tool, to create UI elements and screens for all the interactions in our game. We then proceeded to design a UML diagram using Lucid Chart, which illustrated the classes, objects, and file structure for all the GeoJson Maps. We also developed a flow diagram for some of the complex interactions, such as the multiplayer lobby creation.",
+            "img": ""
         },
         {
-            "Printing to PDF": "Using the iTextPDF library, PDFs can be created using both the recurring jobs list as well as the completed jobs list in an Excel-style format. If a recurring job requires maintenance when printed to PDF, this job will be highlighted in red. The PDF prints Job Name, Mileage Interval, Month Interval, Last Date Performed, Expected Date to Perform, Last Performed Miles, Job Type, Reason for Repair, and Maintenance Needed.",
-            "img": "./images/Car Maintenance Tracker/Car Log pdf.png"
+            "Single Player": "In the single player mode, the players have the ability to learn and draw maps as accurately as possible, using different tools and techniques. The game evaluates the players’ drawings based on their accuracy and awards them with scores and achievements. The game also provides feedback and tips to help the players improve their drawings.",
+            "img": "./images/Earth Uncharted/Earth Uncharted Drawing.png"
+        },
+        {
+            "Multiplayer": "In the multiplayer mode, the players can join or create rooms with up to four players and play three different game modes: Pictionary, Vs, and Heads Up. These game modes allow the players to draw maps in a collaborative or competitive way, depending on the rules and objectives of each mode.",
+            "img": "./images/Earth Uncharted/Earth Uncharted Multiplayer.png"
+        },
+        {
+            "Drawing": "The first task in the Unity game development was to implement the drawing functionality of the game. This involved the following features: pen drawing, map drawing, bounding box drawing, and anchor cities. We used Unity’s Line Render component to enable pen drawing, and we also created a custom point class to store and track all the points drawn by the player. We used the same point class to convert and store the map points from a geojson file, which contained data on a global coordinate system. We had to manipulate these points to display them properly in the game. We also learned from our prototype that providing the player with additional “grounding points” improved the drawing consistency and ease. To achieve this, we added a bounding box with anchor cities that matched the geojson map. These systems worked together to allow us to draw in an effective and fun manner.",
+            "img": "./images/Earth Uncharted/Earth Uncharted Drawing.png"
+        },
+        {
+            "Grader": "The grader is the component of the game that evaluates the player’s drawing accuracy. It operates by first retrieving the difficulty level selected by the player, which can be Easy, Medium, or Hard. Each difficulty level has a corresponding point distance, which determines how close a drawn point has to be to a geojson map point to be considered correct. For instance, if the difficulty level is Hard, which has a point distance of 10 units, then the algorithm will check each drawn coordinate and see if it is within 10 units of any geojson point. If a matching point is found, a correct counter is incremented and the geojson point is removed to avoid duplication. Then, the correct counter is divided by the total number of points to obtain the percentage of accurate points.",
+            "img": "./images/Earth Uncharted/Earth Uncharted Grader.png"
+        },
+        {
+            "Your Earth": "The “Your Earth” feature enables players to view their most accurately drawn maps on a single screen. These maps are positioned according to their real locations on a global map. The player can zoom in and pan around to see all the maps they have drawn and compare them with other players’ maps.",
+            "img": "./images/Earth Uncharted/Earth Uncharted world.png"
+        },
+        {
+            "Public Play Test": "We conducted a public playtest of our game after developing it to a stable alpha version. Our objective was to observe the players’ gameplay and receive feedback based on their experience. We also inquired if they encountered any bugs while playing the game. This event was a valuable opportunity to discover how new players interacted with the game. We collected insightful information about the players’ behavior and preferences, as well as the features that were not yet implemented.",
+            "img": "./images/Earth Uncharted/Earth Uncharted Public.jpg"
         }
     ],
-    "Conclusion": "",
+    "Conclusion": "This game is not finished yet but following the design and implementation steps above I can conclude that following the steps of rapid prototype, UML design and proper segmentaion and delegation of game mechanics we have been effective in creating a unity drawing game using geojson files. Creating the prototype allowed us to learn more about what is important how a final implmentation could be implemented aswell as our public playtest where we were able to get one on one with players and ask them directly about the experience and bugs. If feasable for other projects this workflow proved to be effective in allowing the team to create a fun and enagaing game.",
     "mainimgsrc": "./images/Earth Uncharted/Earth Uncharted Title.png",
     "githublink": "",
     "id": 1
