@@ -38,8 +38,8 @@ function AboutMeBody() {
             </PageCard>
 
             <div className='Resume' style={myStyle}>
-                <object data={"./PDF's/Scott Imandt - Resume Fall 2023.pdf "} type="application/pdf" width="100%" height="900px">
-                    <p>Alternative text<a href="/Projects">to the PDF!</a></p>
+                <object data={"./PDF's/Scott Imandt - Resume Winter 2023.pdf "} type="application/pdf" width="100%" height="900px">
+                    <p>Alternative text<a href="./PDF's/Scott Imandt - Resume Winter 2023.pdf">to the PDF!</a></p>
                 </object>
             </div>
         </>
