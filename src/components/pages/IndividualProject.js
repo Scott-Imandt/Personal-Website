@@ -28,10 +28,19 @@ function LoadJsonData() {
       return require('../../data/Projectdata/CarMaintenanceTrackerProjectData.json')
 
     case "Website JSON Editor":
-        return require('../../data/Projectdata/Website JSON EditorProjectData.json')
-    
+      return require('../../data/Projectdata/Website JSON EditorProjectData.json')
+
     case "Unreal Engine: Don't Stop":
-        return require('../../data/Projectdata/Unrealgame.json')
+      return require('../../data/Projectdata/Unrealgame.json')
+
+    case "DIYTaskTracker":
+      return require('../../data/Projectdata/DIYTaskTracker.json')
+    
+    case "CICaidA: Custom Hardware":
+      return require('../../data/Projectdata/CICaidACustom.json')
+
+    case "Earth Uncharted":
+      return require('../../data/Projectdata/EarthUncharted.json')
 
     default:
       console.log("No Matching JSON File Found")
@@ -45,7 +54,7 @@ function IndividualProject() {
   var data = LoadJsonData();
 
   useEffect(() => {
-    if(data !== undefined) {
+    if (data !== undefined) {
       setPageArrayList(data.Array);
       console.log(data.Array)
     }

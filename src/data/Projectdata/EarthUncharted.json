@@ -1,0 +1,24 @@
+{
+    "title": "Earth Uncharted",
+    "subtitle": "",
+    "Overview": "",
+    "Objective": "",
+    "Array": [
+        {
+            "Job Tracking": "Cars have job objects that contain multiple attributes, including Name, Mileage Interval, Month Interval, Last Performed Date, Last Performed Miles, Expected Date to Repair, and a job Enum. Every time the car object is updated with new mileage and date-time information, the function calcMaintenance is called. This function handles the logic calculation of updating each job with new state information. Jobs can be created using preset defaults as well as user-specified jobs.",
+            "img": "./images/Car Maintenance Tracker/Add Job.png"
+        },
+        {
+            "Completed Jobs": "Completed jobs can be created based on pre-existing jobs or can be created individually for unique jobs. The completed jobs object implements Comparable in order to print jobs in order from most recent to least recent date completed. Completed jobs are also linked to an individual car as a unique list.",
+            "img": "./images/Car Maintenance Tracker/Complete Job.png"
+        },
+        {
+            "Printing to PDF": "Using the iTextPDF library, PDFs can be created using both the recurring jobs list as well as the completed jobs list in an Excel-style format. If a recurring job requires maintenance when printed to PDF, this job will be highlighted in red. The PDF prints Job Name, Mileage Interval, Month Interval, Last Date Performed, Expected Date to Perform, Last Performed Miles, Job Type, Reason for Repair, and Maintenance Needed.",
+            "img": "./images/Car Maintenance Tracker/Car Log pdf.png"
+        }
+    ],
+    "Conclusion": "",
+    "mainimgsrc": "./images/Earth Uncharted/Earth Uncharted Title.png",
+    "githublink": "",
+    "id": 1
+}
