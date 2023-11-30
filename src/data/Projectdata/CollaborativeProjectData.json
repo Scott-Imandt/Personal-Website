@@ -2,7 +2,7 @@
     "title": "Collaborative Project",
     "subtitle": "Meeting rooms At Stony Brook University",
     "Overview": "Many rooms in University buildings and in dorms are unoccupied for hoursthroughout the day. Campus lacks the space for a group of students to meet up for educational. Currently, the process of reserving rooms for students is very difficult",
-    "Data": "../Personal-Website/PDF's/CSE300 Collaborative Project.pdf",
+    "Data": "./PDF's/CSE300 Collaborative Project.pdf",
     "id": 1,
     "mainimgsrc": "",
     "githublink": ""

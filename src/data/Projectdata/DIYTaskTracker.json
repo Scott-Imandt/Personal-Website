@@ -1,24 +1,24 @@
 {
     "title": "DIYTaskTracker",
-    "subtitle": "",
-    "Overview": "",
-    "Objective": "",
+    "subtitle": "M.E.R.N Application to track and inform on DIY Jobs Completed ",
+    "Overview": "Keep track of what you do when you do it. DIYTaskTracker is the full release version of the rapid prototype \"Car Maintenance Tracker\"(also on Personal Website) hosted as a website rather then a JavaFX application. This Application Extends the functionality of the original; version allowing tracking of multiple types of jobs rather then specifically only cars.",
+    "Objective": "The goal for this project is to effectivly extend the use cases of the previous application by allowing more types of jobs to be tracked aswell have this application publically hosted Online for other to use.",
     "Array": [
         {
-            "Job Tracking": "Cars have job objects that contain multiple attributes, including Name, Mileage Interval, Month Interval, Last Performed Date, Last Performed Miles, Expected Date to Repair, and a job Enum. Every time the car object is updated with new mileage and date-time information, the function calcMaintenance is called. This function handles the logic calculation of updating each job with new state information. Jobs can be created using preset defaults as well as user-specified jobs.",
-            "img": "./images/Car Maintenance Tracker/Add Job.png"
+            "New Job Tracking": "To expand apon the previous verison the new Job Tracking now allows the user to track any type of job not limiting to only cars. Job Tracking works by tracking either by date alone or by both a custom tracking variable. For example this custom job tracking variable can be miles for cars, hours for boat engines, or anything with an interval period. ",
+            "img": "./images/DIYTaskTracker/DIYTaskTracker Add Job.png"
         },
         {
-            "Completed Jobs": "Completed jobs can be created based on pre-existing jobs or can be created individually for unique jobs. The completed jobs object implements Comparable in order to print jobs in order from most recent to least recent date completed. Completed jobs are also linked to an individual car as a unique list.",
-            "img": "./images/Car Maintenance Tracker/Complete Job.png"
+            "New Completed Jobs": "To expand apon the previous version the new Completed Jobs can now be added separetly from a tracked job. This now accomodates jobs that dont require regular matenance like a lightbulb replacement or 3d party custom upgrades. The new custom jobs also support detailed description of the job preformed. This includes Replacement product name, product link, and job description.",
+            "img": "./images/DIYTaskTracker/DIYTaskTracker Custom Jobs.png"
         },
         {
-            "Printing to PDF": "Using the iTextPDF library, PDFs can be created using both the recurring jobs list as well as the completed jobs list in an Excel-style format. If a recurring job requires maintenance when printed to PDF, this job will be highlighted in red. The PDF prints Job Name, Mileage Interval, Month Interval, Last Date Performed, Expected Date to Perform, Last Performed Miles, Job Type, Reason for Repair, and Maintenance Needed.",
-            "img": "./images/Car Maintenance Tracker/Car Log pdf.png"
+            "New Printing to PDF": "The new printing to PDF now supports a cleaner look when compared to the old version. Print to pdf allows the user to print either the tracked jobs list or the completed jobs list for personal record or distribution.",
+            "img": "./images/DIYTaskTracker/DIYTaskTracker PDF.png"
         }
     ],
-    "Conclusion": "",
-    "mainimgsrc": "./images/DIYTaskTracker/DIYTaskTracker.png",
+    "Conclusion": "In the future I would like to expand on the current content avalible for use. This expanstion include a dev page for tracking updates and feature for users to read about. Also the addition of Tacking Jobs list to be sharable and collaborable. ",
+    "mainimgsrc": "./images/DIYTaskTracker/DIYTaskTracker main page.png",
     "githublink": "",
     "id": 1
 }

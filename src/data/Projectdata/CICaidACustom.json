@@ -1,36 +1,32 @@
 {
     "title": "CICaidA Custom Hardware",
     "subtitle": "Custom Hardware Device Designed for nursing homes/hospitals to increase response times and eleviate nursing staff shortages",
-    "Overview": "",
-    "Objective": "",
+    "Overview": "Many healthcare facilities face persistent staffing challenges that result in each nurse having to monitor more patients than they can handle at the same time. This can compromise the quality of care, as nurses need to constantly visit different patients and measure routine vitals to detect potential emergencies. CICaidA (Continuous Individual Crisis aid Alert) system is a custom hardware solution that aims to reduce the workload of nurses and other staff, while enhancing the patient care experience.",
+    "Objective": "The CICaidA Custom Hardware Team’s objective is to design a portable device that can be worn by patients in healthcare facilities to measure pulse oximetry and heart rate. This device requires software integration with a backend server to transmit and update the vital signs.",
     "Array": [
         {
-            "General Workflow": "",
+            "General Workflow": "The device operates as follows. A patient wears a custom hardware device that has a unique patient ID assigned to it. This device reads the patient’s heart rate and blood oxygen levels every second and wirelessly sends this information to a Google Firestore database. The CICaidA Mobile App (IOS/Android) or the CICaidA web server then accesses these values and displays the recorded information. If a value from the custom hardware indicates a health concern, both the custom hardware and the App/Web server will trigger an alert to request nurse assistance. The custom hardware has a RGB LED that will turn red if the vitals are out of the normal range. The app and web server will also show a red UI to indicate which patient needs assistance.",
             "img": "./images/CICaidA Custom Hardware/CICaidA Workflow.png"
         },
         {
-            "Hardware": "",
+            "Hardware": "The custom hardware comprises five major components. These components include: the ESP32/Tiny Pico V4 which is the brain of the device; the MAX30101 Pulse Oximeter which is the sensor that recoded all vital infomration; the NeoPixel RGB LED which is the light that changes color according to the patients status; the 500mah battery which powers the whole assebly; and the printed circuit board that connects everything together.",
             "img": "./images/CICaidA Custom Hardware/CICaidA Hardware.png"
         },
         {
-            "Software": "",
+            "Software": "The software development for the custom hardware is done using the Arduino IDE. The Arduino IDE allows us to use various libraries for interacting with our components. We also use a library for Google Firestore to communicate with the backend server and send post and patch updates from the device.",
             "img": "./images/CICaidA Custom Hardware/CICaidA Software.png"
         },
         {
-            "Software UML": "",
+            "Software UML": "For our UML diagram I decided that the best way to display all required information was to follow the outline showed in the picture. The two major gray areas represent the different devices. The left one being the custom hardware and the right being the firestore database. Within the custom hardware two blue boxes can be seen, these boxes represent the void setup and void loop (1 cycle) code that is executed. The Yellow box represents all global variables with comments on what they are and why they are used. the hot pink box represents all of the Firestore http request that the device. Finally the small purple boxes represent all the libraries that are being used by the Arduino. In the second gray region is the Firestore which contains all the various collections with the database in purple and the authentication method described in blue.",
             "img": "./images/CICaidA Custom Hardware/CICaidA Software UML.png"
         },
         {
-            "PCB Creation": "",
+            "PCB Creation": "We decided to create a printed circuit board (PCB) to connect everything in a simple and mass-producible package. Before, we used a perf board for testing, but it had some drawbacks. It was time-consuming to solder together, it could result in inconsistent connections, and it took up a lot of extra space due to additional wires and solder balls. We used EasyEDA to create the PCB. We measured and created all the components in EasyEDA to ensure accuracy. After wiring all the components together, we positioned them on the board. We aimed to optimize the space efficiency and the connection angle of the parts. We then used JLCPCB to print our PCB's.",
             "img": "./images/CICaidA Custom Hardware/CICaidA PCB.png"
-        },
-        {
-            "Future Ideas": "",
-            "img": ""
         }
         
     ],
-    "Conclusion": "",
+    "Conclusion": "In the future we have planed out ways to upgrade our custom hardware package. The first upgrades we considared was in the ways to improve comfert for the patient. One way we decided to achieve this was to convert our THD (Through Hole Device) into a SMD (Surface mount Device). This change would allow us to save even more space and allow for a even smaller package. Another way for us to imporve the confert of the patient was to create a flexable unabody enclosure out of flexable 3d printing plastics. This would make the enclosure form fitting allowing for a less notibale feel on the patients wrists.",
     "mainimgsrc": "./images/CICaidA Custom Hardware/Custom Hardware.png",
     "githublink": "",
     "id": 1

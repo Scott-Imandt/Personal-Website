@@ -1,12 +1,5 @@
 [
     {
-        "title": "DIYTaskTracker",
-        "details": "Task Tracking Website for DIY Tasks        Utilized: Mongo, Express, React, Node",
-        "imagesrc": "./images/DIYTaskTracker/DIYTaskTracker.png",
-        "link": "/IndividualProject",
-        "id": 1
-    },
-    {
         "title": "Smart Blinds",
         "details": "Smart Blinds that move on there own        Utilized: Java, Arduino, Android Studio, EasyEDA",
         "imagesrc": "./images/SmartBlinds/smart blinds main board.jpg",
@@ -26,6 +19,13 @@
         "imagesrc": "./images/Car Maintenance Tracker/Main Screen.png",
         "link": "/IndividualProject",
         "id": 3
+    },
+    {
+        "title": "DIYTaskTracker",
+        "details": "Task Tracking Website for DIY Tasks        Utilized: Mongo, Express, React, Node",
+        "imagesrc": "./images/DIYTaskTracker/DIYTaskTracker.png",
+        "link": "/IndividualProject",
+        "id": 1
     },
     {
         "title": "Website JSON Editor",

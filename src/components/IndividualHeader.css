@@ -1,5 +1,4 @@
 .IndividualHeader {
-
     background: var(--background);
     background-color: var(--background);
     border-bottom-right-radius: 50px;
@@ -10,6 +9,14 @@
     flex-wrap: wrap;
     margin: auto;
     justify-content: center;
+    align-items: center;
+}
+
+.title-h1 {
+    font-size: 5.0rem;
+}
+.title-h2{
+    font-size: 2.5rem;
 }
 
 .maincontent {
@@ -21,11 +28,16 @@
     max-width: 750px;
     max-height: 800px;
     max-width: 80%;
-    max-height: 250px;
+    max-height: 500px;
     margin-left: 10%;
     margin-right: 10%;
     border-radius: 50px;
     margin: 50px;
+}
+
+.mainimg {
+    display: flex;
+    justify-content: center;
 }
 
 @media screen and (max-width: 600px) {

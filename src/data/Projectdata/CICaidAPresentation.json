@@ -2,7 +2,7 @@
     "title": "CICaidA SBDC Presentaion",
     "subtitle": "This Presenation was created and used for the Small Buisness Development Center Competition",
     "Overview": "For the SBDC competition, a team of three individuals, including myself, was assembled  to create a business model and proposal for the Stony Brook University Research project CICaidA. The presentation was then used to compete in the Small Business Development Competition, where it was presented to a live panel of business entrepreneurs and expert judges. Our presentation and post Q&A session were awarded second place in the competition and received grant money to continue development of the project.",
-    "Data": "../Personal-Website/PDF's/2023 CICaidA Presentation.pdf",
+    "Data": "./PDF's/2023 CICaidA Presentation.pdf",
     "id": 1,
     "mainimgsrc": "",
     "githublink": ""
