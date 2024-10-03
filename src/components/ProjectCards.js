@@ -9,7 +9,14 @@ function ProjectCards({ Project }) {
                 <>
                     <div className={'projectOverviewContainer'}>
                         
-                        <Link to={p.link} state={{data: p.title}}>
+                        <Link to={p.link} state={{data: p.title}}
+                            onClick={()=>{
+                                window.scroll({
+                                    top: 0,
+                                    left: 0,
+                                    behavior: 'instant'
+                                })
+                            }}>
                         
                             <div className='projectOverviewTitle'>
                                 <h1>{p.title}</h1>
