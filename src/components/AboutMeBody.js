@@ -1,28 +1,13 @@
 import React from 'react'
 import PageCard from './PageCard'
-import { motion } from 'framer-motion'
 
 function AboutMeBody() {
-    const childVariants = {
-        hidden: {
-            opacity: 0
-        },
-
-        visible: {
-            opacity: 1,
-            transition: {
-                delay: 1.0,
-                duration: 1
-            }
-        }
-
-    }
-
+    
     const myStyle = { marginRight: "7.5%", marginLeft: "7.5%", marginTop: "50px" };
 
 
     return (
-        <motion.div variants={childVariants} initial="hidden" animate="visible">
+        <>
             <PageCard
                 title={'About Me'}
                 body={'As a Computer Science major at Stony Brook University, my research and personal projects have provided me with extensive experience in teamwork, problem-solving, and communication. In particular, I have contributed to several research projects, including the VIP Biomedical Engineering Team CICaidA and The Game Developer Project Dividing Line, which have challenged me to develop my technical and interpersonal skills. Additionally, I have completed numerous personal projects, such as a M.E.R.N application, Java/JavaFX projects, and an Android/Arduino app, in which I have honed my programming skills using languages such as Java, JavaScript, Python, Assembly, and C++. In terms of technology, I have worked with a range of programming environments, including Eclipse, Visual Studio Code, Net Beans, Arduino IDE, and Sublime. Additionally, I am also familiar with computer bios systems, Fusion 360 C.A.D software, EasyEDA PCB design, and 3D printing software like Cura, Sli3r, and OctoPrint. Alongside my technical abilities, I possess strong personal skills such as leadership, teamwork, and product development, which have been developed through my academic and personal projects. Furthermore, my experience as a computer sales associate at Best Buy and a retail service representative at Uncle Guiseppie has allowed me to refine my customer service and communication skills. I look forward to leveraging my skills and experiences to contribute to the field of Computer Science after graduating.'}
@@ -58,7 +43,7 @@ function AboutMeBody() {
                     <p>Alternative text<a href="/Projects">to the Projects</a></p>
                 </object>
             </div>
-        </motion.div>
+        </>
     )
 }
 

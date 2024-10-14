@@ -2,20 +2,9 @@ import React from 'react'
 import ButtonLinks from './buttonLinks/ButtonLinks'
 import './IndividualHeader.css'
 import Navbar from './navbar/Navbar'
-import {motion} from 'framer-motion'
+
 
 function IndividualHeader({ projectName, subtitle, mainImage, githublink }) {
-
-    const containerVarients = {
-        hidden: {
-            y: -850,
-        },
-
-        visible: {
-            y: 0,
-            transition: { duration: .75, type: 'spring', stiffness: 60 }
-        }
-    }
     
     let gihublinkcomponent = ""
     let img = ""
@@ -39,7 +28,7 @@ function IndividualHeader({ projectName, subtitle, mainImage, githublink }) {
  
 
     return (
-        <motion.div className="IndividualHeader" variants={containerVarients} initial="hidden" animate="visible">
+        <div className="IndividualHeader">
             <Navbar></Navbar>
             <div className="maincontent">
                 <h1 className="title-h1">{projectName}</h1>
@@ -51,7 +40,7 @@ function IndividualHeader({ projectName, subtitle, mainImage, githublink }) {
             <div className='mainimg'>
                 {img}
             </div>
-        </motion.div>
+        </div>
     )
 }
 

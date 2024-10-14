@@ -1,24 +1,11 @@
 import React from 'react'
 import ButtonLinks from './buttonLinks/ButtonLinks'
 import Navbar from './navbar/Navbar'
-import { motion } from 'framer-motion'
 
 function AboutMeHeader() {
 
-    const containerVarients = {
-        hidden: {
-            y: -850,
-        },
-
-        visible: {
-            y: 0,
-            transition: { duration: .75, type: 'spring', stiffness: 60 }
-        }
-    }
-
-
     return (
-        <motion.div className="IndividualHeader" variants={containerVarients} initial="hidden" animate="visible">
+        <div className="IndividualHeader">
             <Navbar></Navbar>
             <div className="maincontent">
                 <h1 className="title-h1">{"About Me"}</h1>
@@ -50,7 +37,7 @@ function AboutMeHeader() {
             <div className='mainimg'>
                 <img src={'./images/Other/Scott Imandt.png'} alt="Project Imgage"></img>
             </div>
-        </motion.div>
+        </div>
     )
 }
 

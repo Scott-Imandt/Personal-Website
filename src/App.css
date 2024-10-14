@@ -6,6 +6,7 @@
 
 body {
   background:linear-gradient(#393e46 20%, transparent 20%) no-repeat;
+  border-radius: 50px;
   height: 50vh;
 }
 

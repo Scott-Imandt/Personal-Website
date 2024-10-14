@@ -9,6 +9,8 @@
     background-color: var(--background);
     border-bottom-right-radius: 50px;
     border-bottom-left-radius: 50px;
+    position: relative;
+    z-index: 999;
 }
 
 .title-h1{
