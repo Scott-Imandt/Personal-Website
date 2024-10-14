@@ -4,9 +4,25 @@ import PersonalData from '../data/ProjectOverviewDataPersonal.json'
 import CourseData from '../data/ProjectOverviewDataCourse.json'
 import TechnicalData from '../data/ProjectOverviewDataTechnical.json'
 import PageCard from './PageCard'
+import { motion } from 'framer-motion'
 import "./ProjectBody.css"
 
 function ProjectsBody() {
+
+  const childVariants = {
+    hidden: {
+      opacity: 0
+    },
+
+    visible: {
+      opacity: 1,
+      transition: {
+        delay: 1.0,
+        duration: 1
+      }
+    }
+
+  }
 
   const mystyle = {
     display: "flex",
@@ -18,7 +34,7 @@ function ProjectsBody() {
 
 
   return (
-    <>
+    <motion.div variants={childVariants} initial="hidden" animate="visible">
       <div>
         <PageCard title={"--Personal Projects--"} body={''} img={""}> </PageCard>
 
@@ -38,7 +54,7 @@ function ProjectsBody() {
       <div style={mystyle}>
         <ProjectCards Project={TechnicalData}></ProjectCards>
       </div>
-    </>
+    </motion.div>
   )
 }
 

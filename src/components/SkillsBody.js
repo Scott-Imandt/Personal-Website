@@ -1,12 +1,28 @@
 import React from 'react'
 import PageCard from './PageCard'
+import { motion } from 'framer-motion'
 
 function SkillsBody() {
+
+    const childVariants = {
+        hidden: {
+            opacity: 0
+        },
+
+        visible: {
+            opacity: 1,
+            transition: {
+                delay: 1.0,
+                duration: 1
+            }
+        }
+
+    }
 
     const myStyle = { marginRight: "7.5%", marginLeft: "7.5%", marginTop: "50px" };
 
     return (
-        <>
+        <motion.div variants={childVariants} initial="hidden" animate="visible">
             <PageCard
                 title={'Software Engineering'}
                 body={''}
@@ -50,7 +66,7 @@ function SkillsBody() {
             </div>
 
 
-        </>
+        </motion.div>
     )
 }
 

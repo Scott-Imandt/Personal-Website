@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <HashRouter hashType="hashbang">
-        <Navbar />
+        
         <Routes>
           <Route path='/' exact Component={Home} />
           <Route path='/Personal-Website' exact Component={Home} />
