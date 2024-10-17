@@ -7,6 +7,24 @@
     z-index: 0;
 }
 
+@media screen and (max-width: 1080px) and (min-width: 600px) {
+
+    .HomeTitleCardContainer {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 60px;
+        margin-top: 13px;
+        align-items: center;
+    }
+
+    .cardContainer {
+        width: 90%;
+        
+    }
+
+}
+
 @media screen and (max-width: 600px) {
     .HomeTitleCardContainer {
         display: flex;
