@@ -9,12 +9,14 @@
     background-color: var(--background);
     border-bottom-right-radius: 50px;
     border-bottom-left-radius: 50px;
+    position: relative;
+    z-index: 999;
 }
 
 .title-h1{
     color: var(--primary);
     line-height: 1.2;
-    padding-top: 15%;
+    padding-top: 150px;
     font-weight: 500;
     font-size: 5.5rem;
     text-align: center;  
@@ -24,7 +26,7 @@
     color: var(--secondary);
     font-size: 2.75rem;
     text-align: center;
-    padding-bottom: 10%;
+    padding-bottom: 150px;
     font-weight: bold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
 }
@@ -38,13 +40,22 @@
 @media screen and (max-width: 600px) {
     
     .Header h1 {
-        font-size: 4.0rem;
+        font-size: 3.5rem;
     }
 
     .Header h2 {
         font-size: 2.0rem;
         margin: 20px;
         padding-bottom: 30px;
+    }
+
+    .title-h1{
+        color: var(--primary);
+        line-height: 1.2;
+        padding-top: 50px;
+        font-weight: 500;
+        font-size: 5.5rem;
+        text-align: center;  
     }
     
 }

@@ -1,9 +1,11 @@
 import React from 'react'
 import ButtonLinks from './buttonLinks/ButtonLinks'
 import './IndividualHeader.css'
+import Navbar from './navbar/Navbar'
+
 
 function IndividualHeader({ projectName, subtitle, mainImage, githublink }) {
-
+    
     let gihublinkcomponent = ""
     let img = ""
 
@@ -27,6 +29,7 @@ function IndividualHeader({ projectName, subtitle, mainImage, githublink }) {
 
     return (
         <div className="IndividualHeader">
+            <Navbar></Navbar>
             <div className="maincontent">
                 <h1 className="title-h1">{projectName}</h1>
                 <h2 className="title-h2">{subtitle}</h2>

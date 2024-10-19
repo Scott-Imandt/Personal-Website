@@ -10,6 +10,8 @@
     margin: auto;
     justify-content: center;
     align-items: center;
+    position:relative;
+    z-index: 999;
 }
 
 .title-h1 {
@@ -20,7 +22,8 @@
 }
 
 .maincontent {
-    max-width: 700px;
+    max-width: 1000px;
+    
 }
 
 .mainimg img {
@@ -58,13 +61,11 @@
 
     .Buttons {
         display: flex;
-        flex-direction: column;
+        /*flex-direction: column;*/
         align-content: center;
         align-items: center;
         padding-bottom: 20px;
     }
 
-    .buttonElement .title-icons{
-        width: 100px;
-    }
+
 }

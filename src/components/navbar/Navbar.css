@@ -12,6 +12,7 @@
     padding-bottom: 15px;
     padding-top:20px;
     font-family: 'Lobster', 'Merriweather Sans', sans-serif;
+    width: 100%;
   }
   
   .navbar-container {
@@ -123,8 +124,10 @@
   
     .navbar-logo {
       position: absolute;
-      top: 10px;
+      /*top: 10px;*/
       left: 20px;
+      /*color:#393e46*/
+      font-size: 2rem;
       
     }
   

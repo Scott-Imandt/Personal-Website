@@ -3,6 +3,7 @@ import PageCard from './PageCard'
 
 function SkillsBody() {
 
+
     const myStyle = { marginRight: "7.5%", marginLeft: "7.5%", marginTop: "50px" };
 
     return (
