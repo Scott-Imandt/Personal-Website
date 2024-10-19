@@ -23,14 +23,33 @@ h1 {
 
 }
 
-.projectOverviewimg{
+.projectOverviewimg {
     display: flex;
     justify-content: center;
 }
 
-.projectOverviewContainer img{
+.projectOverviewContainer img {
     max-width: 100%;
     max-height: 100%;
+}
+
+.details {
+    /*width: 670px;*/
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    margin-top: 13px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.projectOverviewBody {
+    font-size: 2rem;
+    color: #eeeeee;
+    text-decoration: none;
+    margin-right: 10px;
+    width: 350px;
+
 }
 
 @media screen and (max-width: 600px) {
@@ -73,20 +92,26 @@ h1 {
     }
 
     .projectOverviewBody p {
-        font-size: 1.2rem;
+        font-size: 1rem;
         text-align: justify;
         padding-bottom: 20px;
     }
 
-}
+    .projectOverviewBody {
+        width: auto;
+    }
 
-.details {
-    /*width: 670px;*/
-    display: flex;
-    justify-content: center;
-    margin-top: 13px;
-    font-weight: bold;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    .details {
+
+        height: auto;
+    }
+
+    .projectOverviewContainer h1 {
+        max-width: 230px;
+        font-size: 2rem;
+    }
+    
+
 }
 
 @media screen and (min-width: 1060px) {
@@ -114,12 +139,6 @@ h1 {
     text-decoration: underline;
 }
 
-.projectOverviewBody {
-    font-size: 2rem;
-    color: #eeeeee;
-    text-decoration: none;
-    margin-right: 10px;
-}
 
 a:-webkit-any-link {
     text-decoration: none;

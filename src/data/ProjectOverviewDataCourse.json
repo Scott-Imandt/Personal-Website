@@ -29,7 +29,7 @@
     },
     {
         "title": "Unreal Engine: Don't Stop",
-        "details": "\"Don't Stop\" is a game that was developed during CSE 381 3D Game Programing course. This game utilizes both C++ and Unreal Engine Blueprint system.",
+        "details": "\"Don't Stop\" is a game that utilizes both C++ and Unreal Engine Blueprint system.",
         "imagesrc": "./images/Unreal Engine Dont Stop/TitleScreen.png",
         "link": "/IndividualProject",
         "id": 3
