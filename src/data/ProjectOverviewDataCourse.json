@@ -11,27 +11,27 @@
         "details": "Research Project using Unity Game Engine to Develop a Map Project",
         "imagesrc": "./images/Earth Uncharted/Earth Uncharted Title.png",
         "link": "/IndividualProject",
-        "id": 1
+        "id": 2
     },
     {
         "title": "HPS Daily",
         "details": "A website that allows student to keep up to date on shool activities\n",
         "imagesrc": "./images/HPS Daily/project-hpsdaily-preview.png\n",
         "link": "/IndividualProject",
-        "id": 1
+        "id": 3
     },
     {
         "title": "Hiking Java App",
         "details": "A Java application that allows users to record trail their history",
         "imagesrc": "./images/Trail Recorder/project-trail-preview.png",
         "link": "/IndividualProject",
-        "id": 2
+        "id": 4
     },
     {
         "title": "Unreal Engine: Don't Stop",
         "details": "\"Don't Stop\" is a game that utilizes both C++ and Unreal Engine Blueprint system.",
         "imagesrc": "./images/Unreal Engine Dont Stop/TitleScreen.png",
         "link": "/IndividualProject",
-        "id": 3
+        "id": 5
     }
 ]

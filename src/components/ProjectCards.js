@@ -7,8 +7,8 @@ function ProjectCards({ Project }) {
     return (
         Project.map(p => {
             return (
-                <>
-                    <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: .95 }}>
+                <>  
+                    <motion.div key={p.id} whileHover={{ scale: 1.1 }} whileTap={{ scale: .95 }}>
                         <div className={'projectOverviewContainer'}>
 
                             <Link to={p.link} state={{ data: p.title }}

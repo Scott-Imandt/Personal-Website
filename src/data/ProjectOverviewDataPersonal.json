@@ -4,34 +4,34 @@
         "details": "Smart Blinds that move on there own        Utilized: Java, Arduino, Android Studio, EasyEDA",
         "imagesrc": "./images/SmartBlinds/smart blinds main board.jpg",
         "link": "/IndividualProject",
-        "id": 1
+        "id": 6
     },
     {
         "title": "Fence Project",
         "details": "A radio controlled fence system to inform users if the gate is open        Utilized: HTML, CSS, Arduino, NRF Module, EasyEDA, Fusion 360",
         "imagesrc": "./images/Fence Project/Fence Overview.jpg",
         "link": "/IndividualProject",
-        "id": 2
+        "id": 7
     },
     {
         "title": "Car Maintenance Tracker",
         "details": "Java FX application to track car maintenance and maintain a repair history",
         "imagesrc": "./images/Car Maintenance Tracker/Main Screen.png",
         "link": "/IndividualProject",
-        "id": 3
+        "id": 8
     },
     {
         "title": "DIYTaskTracker",
         "details": "Task Tracking Website for DIY Tasks        Utilized: Mongo, Express, React, Node",
         "imagesrc": "./images/DIYTaskTracker/DIYTaskTracker.png",
         "link": "/IndividualProject",
-        "id": 1
+        "id": 9
     },
     {
         "title": "Website JSON Editor",
         "details": "A Python Application to edit JSON data files for personal website",
         "imagesrc": "./images/Website JSON Editor/JSON Edit Main.png",
         "link": "/IndividualProject",
-        "id": 4
+        "id": 10
     }
 ]
