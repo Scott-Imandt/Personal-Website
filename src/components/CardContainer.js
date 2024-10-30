@@ -2,7 +2,7 @@ import React from 'react'
 import './CardContainer.css'
 import { motion } from 'framer-motion'
 
-function CardContainer({ title, Cards }) {
+function CardContainer({ title, Cards, id }) {
 
     const mystyle = {
         display: "flex",

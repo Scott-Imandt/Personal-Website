@@ -4,6 +4,7 @@
         "details": "Vertically Integrated Project Team Leader for Portable Custom Environment",
         "imagesrc": "./images/CICaidA Custom Hardware/Custom Hardware.png",
         "link": "/IndividualProject",
+        "code": [["Arduino","blue",119], ["Fusion 360","Gray",120],["EasyEDA", "gray",121]],
         "id": 1
     },
     {
@@ -11,6 +12,7 @@
         "details": "Research Project using Unity Game Engine to Develop a Map Project",
         "imagesrc": "./images/Earth Uncharted/Earth Uncharted Title.png",
         "link": "/IndividualProject",
+        "code": [["Unity","Lavender",122], ["JSON","Gray",123]],
         "id": 2
     },
     {
@@ -18,12 +20,14 @@
         "details": "A website that allows student to keep up to date on shool activities\n",
         "imagesrc": "./images/HPS Daily/project-hpsdaily-preview.png\n",
         "link": "/IndividualProject",
+        "code": [["HTML","purple",124], ["CSS","pink",125], ["Google Calendar API","gray",126]],
         "id": 3
     },
     {
         "title": "Hiking Java App",
         "details": "A Java application that allows users to record trail their history",
         "imagesrc": "./images/Trail Recorder/project-trail-preview.png",
+        "code": [["Java","red",127], ["JavaFX","LightCoral",128], ["SQL","MediumTurquoise",129]],
         "link": "/IndividualProject",
         "id": 4
     },
@@ -31,6 +35,7 @@
         "title": "Unreal Engine: Don't Stop",
         "details": "\"Don't Stop\" is a game that utilizes both C++ and Unreal Engine Blueprint system.",
         "imagesrc": "./images/Unreal Engine Dont Stop/TitleScreen.png",
+        "code": [["Unreal","RebeccaPurple",130]],
         "link": "/IndividualProject",
         "id": 5
     }

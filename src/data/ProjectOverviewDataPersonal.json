@@ -1,16 +1,18 @@
 [
     {
         "title": "Smart Blinds",
-        "details": "Smart Blinds that move on there own        Utilized: Java, Arduino, Android Studio, EasyEDA",
+        "details": "Smart Blinds that move on there own",
         "imagesrc": "./images/SmartBlinds/smart blinds main board.jpg",
         "link": "/IndividualProject",
+        "code": [["Java","red",100], ["Arduino","blue",101],["Android Studio","green",102],["EasyEDA","gray",103]],
         "id": 6
     },
     {
         "title": "Fence Project",
-        "details": "A radio controlled fence system to inform users if the gate is open        Utilized: HTML, CSS, Arduino, NRF Module, EasyEDA, Fusion 360",
+        "details": "A radio controlled fence system to inform users if the gate is open",
         "imagesrc": "./images/Fence Project/Fence Overview.jpg",
         "link": "/IndividualProject",
+        "code": [["HTML","purple",104], ["CSS","pink",105],["Arduino","blue",106],["EasyEDA","gray",107], ["Fusion 360","gray",108]],
         "id": 7
     },
     {
@@ -18,13 +20,15 @@
         "details": "Java FX application to track car maintenance and maintain a repair history",
         "imagesrc": "./images/Car Maintenance Tracker/Main Screen.png",
         "link": "/IndividualProject",
+        "code": [["Java","red",109], ["itextpdf","gray",110],["FILE I/O","Gray",111]],
         "id": 8
     },
     {
         "title": "DIYTaskTracker",
-        "details": "Task Tracking Website for DIY Tasks        Utilized: Mongo, Express, React, Node",
+        "details": "Task Tracking Website for DIY Tasks",
         "imagesrc": "./images/DIYTaskTracker/DIYTaskTracker.png",
         "link": "/IndividualProject",
+        "code": [["MongoDB","DarkGreen",112], ["Express","cornsilk",113],["React","CornflowerBlue",114],["Node","DarkOrange",115]],
         "id": 9
     },
     {
@@ -32,6 +36,7 @@
         "details": "A Python Application to edit JSON data files for personal website",
         "imagesrc": "./images/Website JSON Editor/JSON Edit Main.png",
         "link": "/IndividualProject",
+        "code": [["Python","Gold",116], ["JSON","Gray",117],["tkinter", "gray",118]],
         "id": 10
     }
 ]
