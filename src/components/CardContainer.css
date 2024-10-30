@@ -9,8 +9,8 @@
     margin-bottom: 20px;
 
     border-radius: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-top: 20px;
     padding-bottom: 50px;
     position:relative;
@@ -20,6 +20,7 @@
 
 .cardProjectContainer {
     display: flex;
+    justify-content: center;
     font-style: normal;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
@@ -52,7 +53,7 @@
     .cardProjectContainer p {
         font-size: 1rem;
         text-align: justify;
-        padding-bottom: 20px;
+        /* padding-bottom: 20px; */
     }
 
     .maincontent h1 {

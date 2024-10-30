@@ -29,7 +29,7 @@ function ProjectCards({ Project }) {
 
                                 <div className='projectOverviewBody'>
                                     <p>{p.details}</p>
-                                    <div style={{ display: "flex", flexWrap: "wrap" }}>
+                                    <div className='programChipContainer' style={{ display: "flex", flexWrap: "wrap" }}>
                                         {p.code && p.code.map(item => (
 
                                             <ProgramChip Name={item[0]} color={item[1]} key={item[2]}></ProgramChip>
