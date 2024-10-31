@@ -1,0 +1,11 @@
+.programChip{
+    width: max-content;
+    border-color: #00adb5;
+    border-width: thick;
+    border-style: solid;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+    font-size: 1.3rem;
+}

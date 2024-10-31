@@ -4,20 +4,20 @@
         "details": "This guide is for people in need of simplified instructions on how to change a tire. ",
         "imagesrc": "./images/User Instruction/User instruction.png",
         "link": "/TechnicalProjects",
-        "id": 1
+        "id": 11
     },
     {
         "title": "Collaborative Project",
         "details": "This Presentaion is designed to relay a problem and create a innovative solution",
         "imagesrc": "./images/Collaborative Project/Collaborative Project.png",
         "link": "/TechnicalProjects",
-        "id": 2
+        "id": 12
     },
     {
         "title": "CICaidA SBDC Presentaion",
         "details": "This Presenation was created and used for the Small Buisness Development Center Competition",
         "imagesrc": "./images/CICaidA/CICaidA.png",
         "link": "/TechnicalProjects",
-        "id": 2
+        "id": 13
     }
 ]

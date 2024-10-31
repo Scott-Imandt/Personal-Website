@@ -3,6 +3,7 @@ h1 {
     color: #00adb5;
     font-family: 'Lobster', 'Merriweather Sans', sans-serif;
     font-weight: 500;
+    font-size: 2.5rem;
 }
 
 .projectOverviewContainer {
@@ -13,12 +14,13 @@ h1 {
     border-width: thick;
     border-style: solid;
     padding: 10px;
-    margin: 40px;
+    margin: 25px;
+    margin-top: 40px;
 
     width: fit-content;
     padding-bottom: 40px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
     border-radius: 50px;
 
 }
@@ -44,12 +46,16 @@ h1 {
 }
 
 .projectOverviewBody {
-    font-size: 2rem;
+    font-size: 1.4rem;
     color: #eeeeee;
     text-decoration: none;
     margin-right: 10px;
     width: 350px;
 
+}
+
+.programChipContainer{
+    padding-top: 10px;
 }
 
 @media screen and (max-width: 600px) {
@@ -94,7 +100,7 @@ h1 {
     .projectOverviewBody p {
         font-size: 1rem;
         text-align: justify;
-        padding-bottom: 20px;
+        /* padding-bottom: 20px; */
     }
 
     .projectOverviewBody {
@@ -111,13 +117,16 @@ h1 {
         font-size: 2rem;
     }
     
+    .programChipContainer{
+        justify-content: center;
+    }
 
 }
 
 @media screen and (min-width: 1060px) {
     .details {
 
-        width: 670px;
+        width: 491px;
     }
 
     img {
@@ -137,6 +146,9 @@ h1 {
     color: #00adb5;
     font-size: 2rem;
     text-decoration: underline;
+    display: flex;
+    justify-content: center;
+
 }
 
 

@@ -1,0 +1,72 @@
+.cardProjectContainer {
+    background-color: #393e463a;
+    
+    border-color: #00adb5;
+    border-width: thick;
+    border-style: solid;
+    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    border-radius: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    position:relative;
+    z-index: 0;
+
+}
+
+.cardProjectContainer {
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.cardProjectContainerTitle h1 {
+    /*width: 220px;*/
+    font-size: 3.5rem;
+    color: #393E46;
+    
+}
+
+@media screen and (max-width: 1060px) {
+    .cardProjectContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+
+    .cardProjectContainerTitle h1 {
+        /*width: 220px;*/
+        font-size: 2rem;
+    }
+
+    .cardProjectContainer p {
+        font-size: 1rem;
+        text-align: justify;
+        /* padding-bottom: 20px; */
+    }
+
+    .maincontent h1 {
+        font-size: 3.0rem;
+    }
+
+    .maincontent h2 {
+        font-size: 1.5rem;
+        margin: 20px;
+    }
+
+    .containerBody{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
