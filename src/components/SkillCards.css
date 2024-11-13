@@ -1,0 +1,66 @@
+.skillDiv {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-grow: 1;
+    flex-wrap: nowrap;
+}
+
+.skillDiv img {
+    height: auto;
+    object-fit: fill;
+    max-width: none;
+    max-height: none;
+
+}
+
+.skillDiv .pageCardContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#leetcode {
+    height: 250px;
+}
+
+@media screen and (max-width: 1080px) and (min-width: 600px) {
+
+
+    .skillDiv {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #leetcode {
+        height: 100%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .skillDiv {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skillDiv img {
+        border-radius: 25px;
+        width: 100%;
+    }
+
+    .skillDiv .pageCardContainer {
+        display: flex;
+        justify-content: inherit;
+        justify-content: center;
+        width: 250px;
+    }
+
+    #leetcode {
+        height: auto;
+    }
+
+}
