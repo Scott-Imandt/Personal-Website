@@ -5,7 +5,6 @@ import "./SkillCards.css"
 
 function SkillsBody() {
 
-
     const softwareEngineeringComponents = [
 
         <div className="skillDiv">
@@ -19,9 +18,9 @@ function SkillsBody() {
                 title={'HackerRank Badges'}
                 body={
                     <div style={{ display: "flex", justifyContent: "center", flexWrap: "wrap" }}>
-                        <object type="image/svg+xml" align="center" data="https://www.hackerrankapi.scottimandt.com/?username=luigiandscott&badge=python">Your browser does not support SVG (HackerRank-Badge)</object>
-                        <object type="image/svg+xml" align="center" data="https://www.hackerrankapi.scottimandt.com/?username=luigiandscott&badge=sql">Your browser does not support SVG (HackerRank-Badge)</object>
-                        <object type="image/svg+xml" align="center" data="https://www.hackerrankapi.scottimandt.com/?username=luigiandscott&badge=java">Your browser does not support SVG (HackerRank-Badge)</object>
+                        <object type="image/svg+xml" align="center" data="https://www.hackerrankapi.scottimandt.com/?username=luigiandscott&badge=python">Your browser does not support SVG (HackerRank-Badge - Python)</object>
+                        <object type="image/svg+xml" align="center" data="https://www.hackerrankapi.scottimandt.com/?username=luigiandscott&badge=sql">Your browser does not support SVG (HackerRank-Badge - SQL)</object>
+                        <object type="image/svg+xml" align="center" data="https://www.hackerrankapi.scottimandt.com/?username=luigiandscott&badge=java">Your browser does not support SVG (HackerRank-Badge - Java)</object>
                     </div>}
                 img={""}>
             </PageCard>
@@ -60,7 +59,6 @@ function SkillsBody() {
             <CardContainer title={'Software Engineering'} Cards={softwareEngineeringComponents}></CardContainer>
 
             <CardContainer title={'Electronics'} Cards={electronicsComponents}></CardContainer>
-
 
             <div style={myStyle}>
                 <object data={"./PDF's/Scott Imandt - Master Fall 2024.pdf"} type="application/pdf" width="100%" height="900px">
