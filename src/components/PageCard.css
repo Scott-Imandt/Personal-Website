@@ -16,12 +16,16 @@
     position:relative;
     z-index: 0;
 
+    flex-grow: 1;
+    flex-wrap: nowrap;
+
 }
 
 .cardBody {
     display: flex;
     font-style: normal;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content:center;
 }
 
 @media screen and (max-width: 1060px) {
@@ -78,6 +82,7 @@
     .pageCardContainer{
         padding-left: 25px;
         padding-right: 25px;
+        width: 250px;
     }
 }
 

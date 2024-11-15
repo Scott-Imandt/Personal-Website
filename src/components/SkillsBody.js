@@ -1,21 +1,43 @@
 import React from 'react'
 import PageCard from './PageCard'
 import CardContainer from './CardContainer';
+import "./SkillCards.css"
 
 function SkillsBody() {
 
+    const softwareEngineeringComponents = [
 
-    const softwareEngineeringComponents = [<PageCard
-        title={'Software Languages'}
-        body={'Java JavaScript Python HTML / CSS MIPS(Assembly Language) OCaml(Functional Programing) C#(Basic level) C++(Basic Level)'}
-        img={""}>
-    </PageCard>,
+        <div className="skillDiv">
+            <PageCard
+                title={'LeetCode'}
+                body={<img src="https://leetcard.jacoblin.cool/Scott_Imandt?theme=nord&amp;font=Lobster" alt="LeetCode Stats" id='leetcode'></img>}
+                img={""}>
+            </PageCard>
 
-    <PageCard
-        title={'Software Development Skills'}
-        body={'Front and backend web development. (HTML / CSS / JavaScript / React / MongoDB) Experience in Java, JavaFX, Data Structures, Design Patterns, HTML, CSS, JavaScript, Python, Ocaml, MIPS, C++, C# Using the java language to develop programs utilizing polymorphism, Recursion, concurrent programming'}
-        img={""}>
-    </PageCard>]
+            <PageCard
+                title={'HackerRank Badges'}
+                body={
+                    <div style={{ display: "flex", justifyContent: "center", flexWrap: "wrap" }}>
+                        <object type="image/svg+xml" align="center" data="https://www.hackerrankapi.scottimandt.com/?username=luigiandscott&badge=python">Your browser does not support SVG (HackerRank-Badge - Python)</object>
+                        <object type="image/svg+xml" align="center" data="https://www.hackerrankapi.scottimandt.com/?username=luigiandscott&badge=sql">Your browser does not support SVG (HackerRank-Badge - SQL)</object>
+                        <object type="image/svg+xml" align="center" data="https://www.hackerrankapi.scottimandt.com/?username=luigiandscott&badge=java">Your browser does not support SVG (HackerRank-Badge - Java)</object>
+                    </div>}
+                img={""}>
+            </PageCard>
+        </div>,
+
+
+        <PageCard
+            title={'Software Languages'}
+            body={'Java JavaScript Python HTML / CSS MIPS(Assembly Language) OCaml(Functional Programing) C#(Basic level) C++(Basic Level)'}
+            img={""}>
+        </PageCard>,
+
+        <PageCard
+            title={'Software Development Skills'}
+            body={'Front and backend web development. (HTML / CSS / JavaScript / React / MongoDB) Experience in Java, JavaFX, Data Structures, Design Patterns, HTML, CSS, JavaScript, Python, Ocaml, MIPS, C++, C# Using the java language to develop programs utilizing polymorphism, Recursion, concurrent programming'}
+            img={""}>
+        </PageCard>]
 
     const electronicsComponents = [<PageCard
         title={'Hardware Experience'}
@@ -37,7 +59,6 @@ function SkillsBody() {
             <CardContainer title={'Software Engineering'} Cards={softwareEngineeringComponents}></CardContainer>
 
             <CardContainer title={'Electronics'} Cards={electronicsComponents}></CardContainer>
-
 
             <div style={myStyle}>
                 <object data={"./PDF's/Scott Imandt - Master Fall 2024.pdf"} type="application/pdf" width="100%" height="900px">
