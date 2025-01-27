@@ -54,6 +54,10 @@ function LoadJsonData() {
       ReactGA.send({ hitType: "pageview", page: "Project/Earth Uncharted", title: "Personal Website" });
       return require('../../data/Projectdata/EarthUncharted.json')
 
+    case "Smart Blinds 2.0":
+      ReactGA.send({hitType: "pageview", page: "Project/SmartBlinds2.0", title: "Personal Website"});
+      return require('../../data/Projectdata/SmartBlinds2.json')
+
     default:
       console.log("No Matching JSON File Found")
       return undefined
@@ -68,7 +72,7 @@ function IndividualProject() {
   useEffect(() => {
     if (data !== undefined) {
       setPageArrayList(data.Array);
-      console.log(data.Array)
+      //console.log(data.Array)
     }
   }, [data])
 

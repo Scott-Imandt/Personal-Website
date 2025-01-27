@@ -1,5 +1,13 @@
 [
     {
+        "title": "Smart Blinds 2.0",
+        "details": "Updated smart blinds with will new updated custom PCB",
+        "imagesrc": "./images/SmartBlinds/smart blinds main board.jpg",
+        "link": "/IndividualProject",
+        "code": [["Java","red",100], ["Arduino","blue",101],["Android Studio","green",102],["EasyEDA","gray",103]],
+        "id": 14
+    },
+    {
         "title": "Smart Blinds",
         "details": "Smart Blinds that move on there own",
         "imagesrc": "./images/SmartBlinds/smart blinds main board.jpg",
