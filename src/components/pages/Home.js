@@ -2,6 +2,8 @@ import React from 'react'
 import Header from "../HomeHeader";
 import HomeBody from '../HomeBody';
 import { motion } from 'framer-motion'
+import { useEffect } from 'react';
+import ReactGA from "react-ga4";
 //import Navbar from '../navbar/Navbar';
 
 function Home() {
@@ -61,6 +63,10 @@ function Home() {
         }
 
     }
+
+    useEffect(() => {
+        ReactGA.send({ hitType: "pageview", page: "HomePage", title: "Personal Website" });
+    }, [])
 
     return (
         <>

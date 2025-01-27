@@ -3,6 +3,8 @@ import { useLocation } from 'react-router-dom'
 import IndividualHeader from '../IndividualHeader';
 import PageCard from '../PageCard';
 import { motion } from 'framer-motion'
+//import { useEffect } from 'react';
+import ReactGA from 'react-ga4'
 
 function LoadJsonData() {
     const location = useLocation();
@@ -13,12 +15,17 @@ function LoadJsonData() {
     switch (data) {
 
         case "User Instructions":
+
+            ReactGA.send({ hitType: "pageview", page: "Project/User Instructions", title: "Personal Website" });
             return require('../../data/Projectdata/UserInstructionData.json')
 
+
         case "Collaborative Project":
+            ReactGA.send({ hitType: "pageview", page: "Project/Collaborative Project", title: "Personal Website" });
             return require('../../data/Projectdata/CollaborativeProjectData.json')
 
         case "CICaidA SBDC Presentaion":
+            ReactGA.send({ hitType: "pageview", page: "Project/CICaidA SBDC Presentation", title: "Personal Website" });
             return require('../../data/Projectdata/CICaidAPresentation.json')
 
         default:

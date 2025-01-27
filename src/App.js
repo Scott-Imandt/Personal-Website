@@ -10,6 +10,11 @@ import IndividualProject from './components/pages/IndividualProject.js';
 import TechnicalProjects from './components/pages/TechnicalProjects.js';
 import { AnimatePresence } from 'framer-motion';
 import './App.css'
+
+import ReactGA from "react-ga4";
+
+ReactGA.initialize("G-FGR2MFQC25");
+
 function App() {
 
   const location = useLocation();
